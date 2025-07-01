@@ -1,0 +1,58 @@
+# --- Environments
+
+# direnv
+.direnv
+.envrc
+
+# conda
+.conda
+
+# Python virtual environment
+.venv
+
+# --- Python
+
+# pyenv
+.python-version
+
+# compiled code
+__pycache__/
+*.py[cod]
+
+# setuptools
+/dist/
+*.egg-info/
+*.egg*
+
+# testing
+htmlcov/
+.cache
+.coverage
+.coverage.*
+.pytest_cache
+.tox/
+
+# pdoc auto-generated documentation
+docs/research-volume-estimation
+
+# DotEnv configuration
+.env
+
+# --- Code editors
+
+# VS Code
+.vscode/
+
+# Pycharm
+.idea
+
+# Spyder
+.spyproject/
+
+# vim
+*.sw[po]
+
+# --- Miscellaneous
+
+# macOS
+.DS_Store*
