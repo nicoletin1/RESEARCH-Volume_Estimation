@@ -1,0 +1,14 @@
+A large dataset of synthetic SEM images of powder materials and their ground truth 3D structures
+Brian L. DeCost and Elizabeth A. Holm
+synthetic powder material images accompanying [1].
+
+scripts:
+blender_powder.py: blender python script to render powder images.
+generate_sample.py: python script to generate samples from powder particle size distributions.
+blend.sh: example shell script showing how to use generate_sample.py and blender_powder.py to render an image
+
+texture resource: metal_texture.jpg
+CC-BY image from the Blender Cloud Texture Library:
+https://cloud.blender.org/p/textures/#5679adf6c379cf25588ccea1
+
+[1]: B.L. DeCost, E. Holm. Characterizing powder materials using keypoint-‐‐based computer vision methods, Computational Materials Science in press (2016).
