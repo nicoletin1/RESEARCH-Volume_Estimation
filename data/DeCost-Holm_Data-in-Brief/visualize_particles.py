@@ -9,7 +9,7 @@ import plotly.express as px
 plt.ion()
 
 # Load particles.json Data
-with open('./a-lognormal-loc0.1-shape0.5/particles/particles92.json', 'r') as f:
+with open('./data/DeCost-Holm_Data-in-Brief/d-lognormal-loc0.1-shape0.25/particles/particles1.json', 'r') as f:
     data = json.load(f)
 
 particles = data['particles']
@@ -23,7 +23,7 @@ df.head()
 # 3D Scatter Plot of Particle Positions
 fig = plt.figure(figsize=(8, 6))
 ax = fig.add_subplot(111, projection='3d')
-sc = ax.scatter(df['x'], df['y'], df['z'], c=df['size'], s=df['size']*1e3, cmap='viridis')
+sc = ax.scatter(df['x'], df['y'], df['z'], c=df['size'], s=df['size']*1e2, cmap='viridis')
 plt.colorbar(sc, ax=ax, label='Particle Size')
 ax.set_title('3D Scatter Plot of Particle Positions')
 ax.set_xlabel('X')
